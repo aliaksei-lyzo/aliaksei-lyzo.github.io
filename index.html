@@ -1,1 +1,255 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Forum|Poiret+One|Prosto+One&display=swap" rel="stylesheet"><link rel="manifest" href="/manifest.json"/><title>ГомельСтроитель</title><link href="/static/css/main.ea25d73c.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={1:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script><script src="/static/js/2.a1e37e2a.chunk.js"></script><script src="/static/js/main.10e1bdd6.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Forum|Poiret+One|Prosto+One&display=swap" rel="stylesheet">
+    <title>ГомельСтроитель</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="paralax-container">
+      <div class="paralax-background"></div>
+      <div class="paralax-wrapper">
+        <!-- HEADER  -->
+        <div class="flex flex-horizontal-center" id="header">
+          <img class="header-image" src="images/header.png" />
+          <div class="header-content">
+            <div class="flex flex-vertical-center">
+              <img class="logo" src="images/Logo.png" />
+              <div class="company-name">ГомельСтроитель</div>
+            </div>
+            <div class="flex flex-vertical-center">
+              <div class="phone">
+                <img class="phone-logo" src="images/velcom.png" />
+                +375 29 952-99-40
+                <img class="phone-logo viber" src="images/viber.png" />
+              </div>
+              <div class="phone">
+                <img class="phone-logo" src="images/mts.png">
+                +375 29 44 581 01 14
+              </div>
+            </div>
+            <div class="flex flex-vertical-center">
+              <a
+              href="https://vk.com/id427319348"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="media-logo" src="images/vk.png" />
+            </a>
+            <a
+              href="https://www.instagram.com/gomelstroitel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="media-logo" src="images/instagram.png" />
+            </a>
+            </div>
+          </div>
+        </div>
+        <!-- NAVBAR  -->
+        <nav class="navbar-wrapper">
+          <ul>
+            <a href="#header">Главная</a>
+            <a href="#jobs">Виды работ</a>
+            <a href="#advs">Наши преимущества</a>
+            <a href="#stages">Этапы оформления заказа</a>
+            <a href="#gallery">Наши работы</a>
+          </ul>
+        </nav>
+        <!-- GREETING  -->
+        <div class="greeting">
+          <h2>Здравствуйте, уважаемые Заказчики! Рады Вас привествовать на нашем сайте!</h2>
+          <p>Мы занимаемся строительными работами. Выполняем как отдельные виды работ, так и комплексы работ «под ключ».</p>
+        </div>
+        <!-- JOBS LIST  -->
+        <h2 class="greeting" id="jobs">Виды работ</h2>
+        <div class="flex" id="jobs-wrapper">
+          <div class="column-2">
+            <li class="job">
+              <div class="job-image" style="background-position: -10px -10px"></div>
+              <h3>Проектирование домов</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -130px -10px"></div>
+              <h3>Фундаменты</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -10px -130px"></div>
+              <h3>Подвалы</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -130px -130px"></div>
+              <h3>Бетонные стяжки пола</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -250px -10px"></div>
+              <h3>Смотровые ямы</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -250px -130px"></div>
+              <h3>Усиление фундамента</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -10px -250px"></div>
+              <h3>Монолитные пояса</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -130px -250px"></div>
+              <h3>Канализации</h3>
+              <p></p>
+            </li>
+          </div>
+          <div class="column-2">
+            <li class="job">
+              <div class="job-image" style="background-position: -250px -250px"></div>
+              <h3>Выгребные ямы и септики</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -370px -10px"></div>
+              <h3>Террасы и крыльца</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -370px -130px"></div>
+              <h3>Лестницы</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -370px -250px"></div>
+              <h3>Отмостки</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -10px -370px"></div>
+              <h3>Кладка блоков ПГС</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -130px -370px"></div>
+              <h3>Перекрытия</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -250px -370px"></div>
+              <h3>Кровли</h3>
+              <p></p>
+            </li>
+            <li class="job">
+              <div class="job-image" style="background-position: -370px -370px"></div>
+              <h3>Утепление</h3>
+              <p></p>
+            </li>
+          </div>
+        </div>
+        <!-- ADVANTAGES LIST -->
+        <h2 class="greeting" id="advs">Наши преимущества</h2>
+        <div class="flex">
+          <div class="column-3">
+            <div>
+              <div class="advantage-image" style="background-position: -10px -230px"></div>
+              <h3 class="greeting">Опыт работы</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="column-3">
+            <div>
+              <div class="advantage-image" style="background-position: -450px -230px"></div>
+              <h3 class="greeting">Доставка материалов</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="column-3">
+            <div>
+              <div class="advantage-image" style="background-position: -10px -10px"></div>
+              <h3 class="greeting">Бетон с завода</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="column-3">
+            <div>
+              <div class="advantage-image" style="background-position: -230px -230px"></div>
+              <h3 class="greeting">Своя опалубка</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="column-3">
+            <div>
+              <div class="advantage-image" style="background-position: -450px -10px"></div>
+              <h3 class="greeting">Своя техника</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="column-3">
+            <div>
+              <div class="advantage-image" style="background-position: -230px -10px"></div>
+              <h3 class="greeting">Работа с кредитами</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <!-- STAGES LIST -->
+        <h2 id="stages" class="greeting">Этапы оформления заказа</h2>
+        <ol>
+          <li class="job">
+            <div class="stage-img" style="background-position: -0 -0"></div>
+            <h3>1. Общение по телефону</h3>
+          </li>
+          <li class="job">
+            <div class="stage-img" style="background-position: -0 -100px"></div>
+            <h3>2. Выезд специалиста</h3>
+          </li>
+          <li class="job">
+            <div class="stage-img" style="background-position: -0 -200px"></div>
+            <h3>3. Расчет стоимости работ</h3>
+          </li>
+          <li class="job">
+            <div class="stage-img" style="background-position: -0 -300px"></div>
+            <h3>4. Составление сметно-договорной документации для банка (в случае кредитного строительства)</h3>
+          </li>
+          <li class="job">
+            <div class="stage-img" style="background-position: -0 -400px"></div>
+            <h3>5. Геодезические работы</h3>
+          </li>
+          <li class="job">
+            <div class="stage-img" style="background-position: -0 -500px"></div>
+            <h3>6. Доставка материалов</h3>
+          </li>
+          <li class="job">
+            <div class="stage-img" style="background-position: -0 -600px"></div>
+            <h3>7. Выполнение работ</h3>
+          </li>
+          <li class="job">
+            <div class="stage-img" style="background-position: -0 -700px"></div>
+            <h3>7. Приемка работ</h3>
+          </li>
+        </ol>
+        <!-- GALLERY -->
+        <div id="gallery" class="greeting">
+          <h2 class="greeting">Наши работы</h2>
+          <p>Галерею наших выполненных работ Вы можете увидеть в Вконтакте или в Инстаграмме по ссылкам ниже:</p>
+          <div class="flex flex-horizontal-center">
+            <a href="https://vk.com/id427319348" target="_blank" class="gallery-link"><img src="images/vk.png" class="gallery-media" /></a>
+            <a href="https://www.instagram.com/gomelstroitel" target="_blank" class="gallery-link"><img src="images/instagram.png" class="gallery-media" /></a>
+          </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer">ГомельСтроитель ©2019</div>
+      </div>
+    </div>
+  </body>
+</html>
